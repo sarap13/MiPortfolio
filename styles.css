@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+/* Letra Para los Titulos */
+.title-font {
+    font-size: 28px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+}
+
+/* Letra para parrafos y substitulos */
+.afacad-flux-subtitle {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.raleway-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.green {
+    color: #59ce4a;
+}
+
+.custom-title {
+    font-size: 50rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.inline-header {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    /* Centra los elementos horizontalmente */
+}
+
+.inline-header h5,
+.inline-header h1 {
+    display: inline-block;
+    /* Permite que los elementos estén en la misma línea */
+    margin: 0 05px;
+    /* Ajusta el espacio horizontal entre los textos */
+}
